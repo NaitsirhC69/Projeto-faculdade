@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/12948.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    height: 100vh;
+}
+header {
+    background-color: #a15a2b;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: rgb(165, 147, 147);
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #000000;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+header a:hover {
+    background-color: #355569;
+    color: burlywood;
+    transition: color 0.5s;
+}
+main {
+    padding: 20px;
+    color: #8d8d8d;
+    align-items: center;
+    z-index: 999;
+}
